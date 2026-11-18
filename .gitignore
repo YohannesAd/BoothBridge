@@ -1,0 +1,55 @@
+# JavaScript dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+
+# Java build output and local Gradle state (keep wrappers)
+target/
+build/
+.gradle/
+*.class
+hs_err_pid*
+replay_pid*
+
+# Test reports and generated coverage
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Local environment and credentials (keep sanitized examples)
+.env*
+!.env.example
+!.env.*.example
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Local databases, backups, and runtime files; keep Flyway .sql files
+/.local/
+/backups/
+*.log
+*.pid
+
+# Editor and operating-system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
